@@ -1,0 +1,171 @@
+
+let [C8_MIX_RDFC, setC8_MIX_RDFC] = useState(0.0);
+let [C9_SiO2_RDFC, setC9_SiO2_RDFC] = useState(0.0);
+let [C10_Al2O3_RDFC, setC10_Al2O3_RDFC] = useState(0.0);
+let [C11_Fe2O3_RDFC, setC11_Fe2O3_RDFC] = useState(0.0);
+let [C12_CaO_RDFC, setC12_CaO_RDFC] = useState(0.0);
+let [C13_MgO_RDFC, setC13_MgO_RDFC] = useState(0.0);
+let [C14_Na2O_RDFC, setC14_Na2O_RDFC] = useState(0.0);
+let [C15_K2O_RDFC, setC15_K2O_RDFC] = useState(0.0);
+let [C16_SO3_RDFC, setC16_SO3_RDFC] = useState(0.0);
+let [C17_LOI_RDFC, setC17_LOI_RDFC] = useState(0.0);
+let [C18_TOTAL_RDFC, setC18_TOTAL_RDFC] = useState(0.0);
+let [C19_LSF_RDFC, setC19_LSF_RDFC] = useState(0.0);
+let [C20_SM_RDFC, setC20_SM_RDFC] = useState(0.0);
+let [C21_AM_RDFC, setC21_AM_RDFC] = useState(0.0);
+
+let [D8_MIX_RDFC, setD8_MIX_RDFC] = useState(0.0);
+let [D9_SiO2_RDFC, setD9_SiO2_RDFC] = useState(0.0);
+let [D10_Al2O3_RDFC, setD10_Al2O3_RDFC] = useState(0.0);
+let [D11_Fe2O3_RDFC, setD11_Fe2O3_RDFC] = useState(0.0);
+let [D12_CaO_RDFC, setD12_CaO_RDFC] = useState(0.0);
+let [D13_MgO_RDFC, setD13_MgO_RDFC] = useState(0.0);
+let [D14_Na2O_RDFC, setD14_Na2O_RDFC] = useState(0.0);
+let [D15_K2O_RDFC, setD15_K2O_RDFC] = useState(0.0);
+let [D16_SO3_RDFC, setD16_SO3_RDFC] = useState(0.0);
+let [D17_LOI_RDFC, setD17_LOI_RDFC] = useState(0.0);
+let [D18_TOTAL_RDFC, setD18_TOTAL_RDFC] = useState(0.0);
+let [D19_LSF_RDFC, setD19_LSF_RDFC] = useState(0.0);
+let [D20_SM_RDFC, setD20_SM_RDFC] = useState(0.0);
+let [D21_AM_RDFC, setD21_AM_RDFC] = useState(0.0);
+
+let [E8_MIX_RDFC, setE8_MIX_RDFC] = useState(0.0);
+let [E9_SiO2_RDFC, setE9_SiO2_RDFC] = useState(0.0);
+let [E10_Al2O3_RDFC, setE10_Al2O3_RDFC] = useState(0.0);
+let [E11_Fe2O3_RDFC, setE11_Fe2O3_RDFC] = useState(0.0);
+let [E12_CaO_RDFC, setE12_CaO_RDFC] = useState(0.0);
+let [E13_MgO_RDFC, setE13_MgO_RDFC] = useState(0.0);
+let [E14_Na2O_RDFC, setE14_Na2O_RDFC] = useState(0.0);
+let [E15_K2O_RDFC, setE15_K2O_RDFC] = useState(0.0);
+let [E16_SO3_RDFC, setE16_SO3_RDFC] = useState(0.0);
+let [E17_LOI_RDFC, setE17_LOI_RDFC] = useState(0.0);
+let [E18_TOTAL_RDFC, setE18_TOTAL_RDFC] = useState(0.0);
+let [E19_LSF_RDFC, setE19_LSF_RDFC] = useState(0.0);
+let [E20_SM_RDFC, setE20_SM_RDFC] = useState(0.0);
+let [E21_AM_RDFC, setE21_AM_RDFC] = useState(0.0);
+
+let [F8_MIX_RDFC, setF8_MIX_RDFC] = useState(0.0);
+let [F9_SiO2_RDFC, setF9_SiO2_RDFC] = useState(0.0);
+let [F10_Al2O3_RDFC, setF10_Al2O3_RDFC] = useState(0.0);
+let [F11_Fe2O3_RDFC, setF11_Fe2O3_RDFC] = useState(0.0);
+let [F12_CaO_RDFC, setF12_CaO_RDFC] = useState(0.0);
+let [F13_MgO_RDFC, setF13_MgO_RDFC] = useState(0.0);
+let [F14_Na2O_RDFC, setF14_Na2O_RDFC] = useState(0.0);
+let [F15_K2O_RDFC, setF15_K2O_RDFC] = useState(0.0);
+let [F16_SO3_RDFC, setF16_SO3_RDFC] = useState(0.0);
+let [F17_LOI_RDFC, setF17_LOI_RDFC] = useState(0.0);
+let [F18_TOTAL_RDFC, setF18_TOTAL_RDFC] = useState(0.0);
+let [F19_LSF_RDFC, setF19_LSF_RDFC] = useState(0.0);
+let [F20_SM_RDFC, setF20_SM_RDFC] = useState(0.0);
+let [F21_AM_RDFC, setF21_AM_RDFC] = useState(0.0);
+
+  let [G8_MIX_RDFC, setG8_MIX_RDFC] = useState(0.0);
+  let [G9_SiO2_RDFC, setG9_SiO2_RDFC] = useState(0.0);
+  let [G10_Al2O3_RDFC, setG10_Al2O3_RDFC] = useState(0.0);
+  let [G11_Fe2O3_RDFC, setG11_Fe2O3_RDFC] = useState(0.0);
+  let [G12_CaO_RDFC, setG12_CaO_RDFC] = useState(0.0);
+  let [G13_MgO_RDFC, setG13_MgO_RDFC] = useState(0.0);
+  let [G14_Na2O_RDFC, setG14_Na2O_RDFC] = useState(0.0);
+  let [G15_K2O_RDFC, setG15_K2O_RDFC] = useState(0.0);
+  let [G16_SO3_RDFC, setG16_SO3_RDFC] = useState(0.0);
+  let [G17_LOI_RDFC, setG17_LOI_RDFC] = useState(0.0);
+  let [G18_TOTAL_RDFC, setG18_TOTAL_RDFC] = useState(0.0);
+  let [G19_LSF_RDFC, setG19_LSF_RDFC] = useState(0.0);
+  let [G20_SM_RDFC, setG20_SM_RDFC] = useState(0.0);
+  let [G21_AM_RDFC, setG21_AM_RDFC] = useState(0.0);
+
+G8_MIX_RDFC = SUM(C8:F8)
+G9_SiO2_RDFC = (C8*C9+D8*D9+E8*E9+F8*F9)/G8
+G10_Al2O3_RDFC =(C8*C10+D8*D10+E8*E10+F8*F10)/G8
+G11_Fe2O3_RDFC =(C8*C11+D8*D11+E8*E11+F8*F11)/G8
+G12_CaO_RDFC =(C8*C12+D8*D12+E8*E12+F8*F12)/G8
+G13_MgO_RDFC =(C8*C13+D8*D13+E8*E13+F8*F13)/G8
+G14_Na2O_RDFC =(C8*C14+D8*D14+E8*E14+F8*F14)/G8
+G15_K2O_RDFC =(C8*C15+D8*D15+E8*E15+F8*F15)/G8
+G16_SO3_RDFC =(C8*C16+D8*D16+E8*E16+F8*F16)/G8
+G17_LOI_RDFC =(C8*C17+D8*D17+E8*E17+F8*F17)/G8
+    //all fix cell
+G18_TOTAL_RDFC =SUM(G9:G17)
+G19_LSF_RDFC =100*G12/(2.8*G9+1.18*G10+0.65*G11)
+G20_SM_RDFC =G9/(G10+G11)
+G21_AM_RDFC =G10/G11
+
+
+//DATE
+I7
+
+//RAWMEAL
+//TARGET
+
+//Lime Saturation
+  const [I14_Lime_Saturation, setI14_Lime_Saturation] = useState(0.0);
+
+//Silica_Modulus
+const [I17_Silica_Modulus, setI17_Silica_Modulus] = useState(0.0);
+
+//Alumina_Modulus
+  const [I20_Alumina_Modulus, setI20_Alumina_Modulus] = useState(0.0);
+
+
+//   COEFFICIENTS	
+//all fix cell
+  const [L8_a, setL8_a] = useState(0.0);
+  const [L9_b, setL9_b] = useState(0.0);
+  const [L10_c, setL10_c] = useState(0.0);
+  const [L11_d, setL11_d] = useState(0.0);
+  const [L12_e, setL12_e] = useState(0.0);
+  const [L13_f, setL13_f] = useState(0.0);
+  const [L14_g, setL14_g] = useState(0.0);
+  const [L15_h, setL15_h] = useState(0.0);
+  const [L16_i, setL16_i] = useState(0.0);
+  const [L17_k, setL17_k] = useState(0.0);
+  const [L18_l, setL18_l] = useState(0.0);
+  const [L19_m, setL19_m] = useState(0.0);
+  const [L20_n, setL20_n] = useState(0.0);
+  const [L21_p, setL21_p] = useState(0.0);
+  const [L22_q, setL22_q] = useState(0.0);
+  const [L23_r, setL23_r] = useState(0.0);
+  const [L24_s, setL24_s] = useState(0.0);
+
+L13_f =I20*C11-C10
+L14_g =I20*D11-D10
+L15_h =I20*E11-E10
+L16_i =I20*F11-F10
+L17_k =I17*C10+I17*C11-C9
+L18_l =I17*D10+I17*D11-D9
+L19_m =I17*E10+I17*E11-E9
+L20_n =I17*F10+I17*F11-F9
+L21_p =I14*2.8*C9+I14*1.18*C10+I14*0.65*C11-100*C12
+L22_q =I14*2.8*D9+I14*1.18*D10+I14*0.65*D11-100*D12
+L23_r =I14*2.8*E9+I14*1.18*E10+I14*0.65*E11-100*E12
+L24_s =I14*2.8*F9+I14*1.18*F10+I14*0.65*F11-100*F12
+
+//fixed cell
+//MATRIX DETERMINANTS	
+
+const [O8_Dw_Matrix, setO8_Dw_Matrix] = useState(0.0);
+const [O9_Dx_Matrix, setO9_Dx_Matrix] = useState(0.0);
+const [O10_Dy_Matrix, setO10_Dy_Matrix] = useState(0.0);
+const [O11_Dz_Matrix, setO11_Dz_Matrix] = useState(0.0);
+const [O12_D_Matrix, setO12_D_Matrix] = useState(0.0);
+
+O8_Dw_Matrix =(L12*L14*L19*L24)+(L12*L15*L20*L22)+(L12*L16*L18*L23)-(L12*L16*L19*L22)-(L12*L14*L20*L23)-(L12*L15*L18*L24)
+O9_Dx_Matrix =-L13*L12*L19*L24+L13*L12*L20*L23+L17*L12*L15*L24-L17*L12*L16*L23-L21*L12*L15*L20+L21*L12*L16*L19
+O10_Dy_Matrix =-L13*L12*L20*L22+L13*L12*L18*L24+L17*L12*L16*L22-L17*L12*L14*L24-L21*L12*L16*L18+L21*L12*L14*L20
+O11_Dz_Matrix =-L13*L12*L18*L23+L13*L12*L19*L22+L17*L12*L14*L23-L17*L12*L15*L22-L21*L12*L14*L19+L21*L12*L15*L18
+O12_D_Matrix =(L14*L19*L24)+(L15*L20*L22)+(L16*L18*L23)-(L16*L19*L22)-(L14*L20*L23)-(L15*L18*L24)-(L13*L19*L24)-(L13*L20*L22)-(L13*L18*L23)+(L13*L19*L22)+(L13*L20*L23)+(L13*L18*L24)+(L17*L15*L24)+(L17*L16*L22)+(L17*L14*L23)-(L17*L15*L22)-(L17*L16*L23)-(L17*L14*L24)-(L21*L15*L20)-(L21*L16*L18)-(L21*L14*L19)+(L21*L15*L18)+(L21*L16*L19)+(L21*L14*L20)
+
+//RAW MATERIALS %
+
+
+const [O15_W, setO15_W] = useState(0.0);
+const [O16_X, setO16_X] = useState(0.0);
+const [O17_Y, setO17_Y] = useState(0.0);
+const [O18_Z, setO18_Z] = useState(0.0);
+const [O19_TOTAL, setO19_TOTAL] = useState(0.0);
+
+O15_W =O8/$O$12
+O16_X =O9/$O$12
+O17_Y =O10/$O$12
+O18_Z =O11/$O$12
+O19_TOTAL =SUM(O15:O18)
