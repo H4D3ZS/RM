@@ -12,7 +12,7 @@
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/bottom-tabs": "^6.5.8",
     "@react-navigation/native": "^6.1.7",
-    "expo": "~48.0.18",
+    "expo": "~49.0.21",
     "expo-asset": "~8.9.1",
     "expo-document-picker": "~11.2.2",
     "expo-file-system": "~15.2.2",
